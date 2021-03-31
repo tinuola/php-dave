@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Specify tests and options to run on phpunit test command -->
+<phpunit colors="true" 
+        verbose="true"
+        bootstrap="vendor/autoload.php">
+
+    <testsuites>
+
+        <!-- A test suite to run; name attribute is required -->
+        <testsuite name="Test suite">
+
+            <!-- Specify directory relative to root project -->
+            <!-- Add suffix attribute if there are files that don't have test in their names -->
+            <directory suffix=".php">tests</directory>
+
+        </testsuite>
+
+    </testsuites>
+
+</phpunit>
