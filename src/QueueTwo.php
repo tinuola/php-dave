@@ -1,12 +1,14 @@
 <?php
 
+# Expecting Code to Throw an Exception
+
 /**
  * Queue
  * 
  * A first-in, first-out data structure
  */
 
-class Queue 
+class QueueTwo 
 {
 
     /**
@@ -26,18 +28,6 @@ class Queue
      * Add an item to the end of the queue
      * 
      * @param mixed $item The item
-     */
-    // public function push($item)
-    // {
-    //     $this->items[] = $item;
-    // }
-
-
-    // For Exception exercise
-    /**
-     * Add an item to the end of the queue
-     * 
-     * @param mixed $item The item
      * 
      * @throws QueueException if the number of items on the queue exceeds the MAX_ITEMS value
      * 
@@ -49,8 +39,6 @@ class Queue
         }
         $this->items[] = $item;
     }
-
-
 
     /**
      * Take an item off the head of the queue
