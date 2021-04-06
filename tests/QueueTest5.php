@@ -10,13 +10,14 @@ class QueueTest5 extends TestCase
 
     protected function setUp(): void 
     {
-        // no longer needed
+        // no longer needed because of queue object set up in setUpBeforeClass
         // $this->queue=new Queue;
 
+        // empties the queue before each test method - line 81 in queue.php
         static::$queue->clear();
     }
 
-    // setupbefore run before first test and teardownafter runs after last test
+    // setupbefore run before first test and teardownafter runs after last test; each is executed once
 
     public static function setUpBeforeClass(): void
     {

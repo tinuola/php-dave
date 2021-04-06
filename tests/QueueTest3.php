@@ -11,6 +11,7 @@ class QueueTest3 extends TestCase
     // We can remove test dependencies from test class
 
     // The known state/fixture for each method is an empty queue object, so:
+
     // 1. set up a queue object
     protected $queue;
 
@@ -30,6 +31,7 @@ class QueueTest3 extends TestCase
 
     public function testNewQueueIsEmpty()
     {
+        // assertion uses property set up on line 16 & 22
         $this->assertEquals(0, $this->queue->getCount());
     }
 

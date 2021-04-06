@@ -1,14 +1,14 @@
 <?php
 
-# Testing a function
+# 02 - Testing a function
 
 
 use PHPUnit\Framework\TestCase;
 
 // Test class
 class FunctionTest extends TestCase {
+    
     // Make test name as verbose as possible
-
     // Test method
     public function testAddReturnsTheCorrectSum()
     {

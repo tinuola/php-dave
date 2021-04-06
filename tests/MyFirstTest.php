@@ -1,11 +1,11 @@
 <?php
 
-/*
+/* Quiz
 
 Write your first PHPUnit test method:
--Create a test class called ExampleTest, making sure you extend the correct parent class
+-Create a test class called ExampleTest (or MyFirstTest), making sure you extend the correct parent class
 -Add a test method called testTrueIsTrue
--Add an assertiong using the assertTrue method on the literal boolean value true
+-Add an assertion using the assertTrue method on the literal boolean value true
 
 */
 

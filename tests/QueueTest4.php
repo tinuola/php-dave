@@ -1,5 +1,5 @@
 <?php
-# Add new test using test fixtures
+# Easily add new test using test fixtures
 
 use PHPUnit\Framework\TestCase;
 

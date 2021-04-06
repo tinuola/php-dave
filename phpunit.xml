@@ -10,7 +10,9 @@
         <testsuite name="Test suite">
 
             <!-- Specify directory relative to root project -->
+            <!-- Run all tests in tests folder -->
             <!-- Add suffix attribute if there are files that don't have test in their names -->
+            
             <directory suffix=".php">tests</directory>
 
         </testsuite>

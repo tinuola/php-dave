@@ -1,4 +1,5 @@
 <?php
+# 04 - Unit Testing a Queue Class
 
 /**
  * Queue
@@ -61,7 +62,7 @@ class Queue
     {
         // return array_pop($this->items);
 
-        // For queuetest4
+        // To fix bug for queuetest4
         return array_shift($this->items);
     }
 
